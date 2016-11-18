@@ -1,0 +1,12 @@
+name: 'pubtest'
+version: 1.0.0
+description: A repo to test pub issues
+author: Rob Becker <rob.becker@workiva.com>
+
+dependencies:
+  fakerepo:
+    # path: ../fakerepo
+    git:
+      # url: git://github.com/robbecker-wf/fakerepo.git
+      url: git@github.com:robbecker-wf/fakerepo.git
+      ref: 'v2'
